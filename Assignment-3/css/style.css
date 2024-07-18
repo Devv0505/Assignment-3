@@ -13,7 +13,7 @@ body {
 .poster-container {
     position: absolute;
     width: 80%;
-    max-width: 575px;
+    max-width: 74vh;
 }
 
 .poster {
