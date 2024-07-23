@@ -1,0 +1,97 @@
+/*main body*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    color: white;
+    font-family: 'Good Times Rg', sans-serif;
+    font-size: 10px;
+}
+
+/*This designs the poster img */
+.poster-container {
+    position: absolute;
+    width: 80%;
+    max-width: 74vh;
+}
+
+.poster {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+}
+/* To display the content over the poster image*/
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.presents {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2em;
+    color: #ff0000;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+
+.credits {
+    font-size: 8px;
+    line-height: 1.2;
+    margin-top: 5px;
+    padding-left: 0;
+    text-align: center;
+}
+/*Thic contains the designation of the given person*/
+.by {
+    font-size: 5.5px;
+    padding: 3px;
+}
+
+/*this is th main title of the movie*/
+.title {
+    position: absolute;
+    bottom: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: rgb(234, 39, 39);
+    text-shadow: 1px 2px #000000;
+}
+
+.title p {
+    font-size: 28px;
+    font-family: 'Comback home', sans-serif;
+    margin-top: 0;
+    color: aliceblue;
+    text-shadow: 2px 2px #ff0000;
+}
+/*This formates the anchor tag */
+.title a {
+    text-decoration: none;
+}
+
+/*Footer*/
+footer .experience {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
